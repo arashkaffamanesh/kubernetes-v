@@ -79,7 +79,7 @@ KUBECONFIG=admin.conf kubectl label node ip-10-0-1-106.eu-central-1.compute.inte
 
 ## Clean up
 
-Run `terraform destroy` from the directories where ou deployed k8s and the vpc.
+Run `terraform destroy` from the directories where you deployed k8s and the vpc.
 
 ## Installation with containerd
 
