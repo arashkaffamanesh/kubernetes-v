@@ -77,10 +77,23 @@ To label the nodes properly, you might want to run something like this:
 KUBECONFIG=admin.conf kubectl label node ip-10-0-1-106.eu-central-1.compute.internal node-role.kubernetes.io/node=
 ```
 
+## Installation with containerd
+
+In this step we'll clean up our machines by resetting kubeadm and removing docker and the iptable rules on all machines as follow:
+
+```bash
+sudo kubeadm reset
+sudo iptables -t nat -F
+sudo iptables -t mangle -F
+sudo iptables -F
+sudo iptables -X
+sudo yum remove docker docker-common docker-selinux docker-engine 
+sudo rm -rf /var/lib/docker
+```
+
+Note B.: you can ssh into the worker nodes from the master by providing your id_rsa key on the master!
 
 
-
-
-
+... WIP
 
 
