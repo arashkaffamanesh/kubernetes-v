@@ -77,6 +77,10 @@ To label the nodes properly, you might want to run something like this:
 KUBECONFIG=admin.conf kubectl label node ip-10-0-1-106.eu-central-1.compute.internal node-role.kubernetes.io/node=
 ```
 
+## Clean up
+
+Run `terraform destroy` from the directories where ou deployed k8s and the vpc.
+
 ## Installation with containerd
 
 In this step we'll clean up our machines by resetting kubeadm and removing docker and the iptable rules on all machines as follow:
