@@ -94,6 +94,18 @@ sudo rm -rf /var/lib/docker
 Note B.: you can ssh into the worker nodes from the master by providing your id_rsa key on the master!
 
 
-... WIP
+... work in process
+
+## Credits
+
+Thanks to the awesome [Jakub Scholz](https://twitter.com/scholzj)
+
+## Related links
+
+[Container Runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+
+[Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#configure-cgroup-driver-used-by-kubelet-on-control-plane-node)
+
+[Calico](https://docs.projectcalico.org/v3.10/introduction/)
 
 
