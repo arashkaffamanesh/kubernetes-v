@@ -98,7 +98,7 @@ Note B.: you can ssh into the worker nodes from the master by providing your id_
 
 ## Credits
 
-Thanks givings goes to the awesome [Jakub Scholz](https://twitter.com/scholzj)and the community behing [Terraform AWS VPC contributors](https://github.com/terraform-aws-modules/terraform-aws-vpc/graphs/contributors).
+Thanks givings goes to the awesome [Jakub Scholz](https://twitter.com/scholzj) and the community behing [Terraform AWS VPC contributors](https://github.com/terraform-aws-modules/terraform-aws-vpc/graphs/contributors).
 
 ## Related links
 
